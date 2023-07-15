@@ -72,7 +72,7 @@ public class Main
 
 
 
-    public static void GetConnectedComponents(ArrayList<Edge>[]graph,int src,boolean visited[],ArrayList<Integer>comp)
+    public static void IsGraphConnected(ArrayList<Edge>[]graph,int src,boolean visited[],ArrayList<Integer>comp)
     {
         visited[src]=true;
 
