@@ -60,7 +60,7 @@ public class Main
             if(visited[i]==false)
             {
                 ArrayList<Integer> comp= new ArrayList<>();
-                GetConnectedComponents(graph,i,visited,comp);
+                IsGraphConnected(graph,i,visited,comp);
                 comps.add(comp);
 
             }
@@ -82,7 +82,7 @@ public class Main
         {
             if(visited[edge.nbr]==false)
             {
-                GetConnectedComponents(graph,edge.nbr,visited,comp);
+                IsGraphConnected(graph,edge.nbr,visited,comp);
             }
 
         }
